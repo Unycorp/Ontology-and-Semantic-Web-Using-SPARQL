@@ -1,0 +1,49 @@
+    /*This is an optimzed css files for Intellectual
+    
+    author : 2G Fields
+    Date Created: 27th of febuary, 2020. 11:00pm
+    All rights reserved
+    */
+    
+    /* buttons */
+
+    .button_circle{
+         border-radius:50%;
+         border-width:2px;
+         border-style:solid;
+         outline:none;
+         overflow:hidden;
+         cursor: default;
+    }.button_pop{
+         box-shadow:1px 1px 2px 0px rgba(0,0,0,.13);
+         outline:none;
+         border:0px;
+         border-radius:2px;
+         display:flex;
+         overflow:hidden;
+         cursor: default;
+    }.button_normal{
+         outline:none;
+         border:1px solid;
+         border-radius:2px;
+         display:flex;
+         overflow:hidden;
+         cursor: default;
+    }.noBut{
+        outline:none;
+        border:0px;
+        background:none;
+
+    }
+
+    /* buttons sizes */
+    .b_size_normal_circle{
+        width:35px;
+        height:35px;
+    }.b_size_normal_rect{
+        width:100px;
+        height:38px;
+    }.b_size_icon_circle{
+        width:20px;
+        height:20px;
+    }

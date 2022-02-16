@@ -1,0 +1,93 @@
+    /*This is an optimzed css files for Intellectual
+    
+    author : 2G Fields
+    Date Created: 27th of febuary, 2020. 11:00pm
+    All rights reserved
+    */
+    
+    /* Shapes and layouts */
+    .plane{
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100%;
+        height:100%:
+    }.circle{
+        border-radius:50%;
+    }.center{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        /*support android */
+        -webkit-display: flex;
+        -webkit-align-items:center;
+        -webkit-justify-content: center;
+    }.centre{
+        display: flex;
+        align-items:center;
+         /*support android */
+        -webkit-display: flex;
+        -webkit-align-items:center;
+    }.center_hor{
+        margin-left:auto;
+        margin-right:auto;
+    }.center_ver{
+        margin-top:auto;
+        margin-bottom:auto;
+    }.merge{
+        margin-left:-100%;
+    }.mergerleft{
+        margin-left:-100%;
+    }.leftgravity{
+        display:flex;
+        -webkit-display:flex;
+    }.topgravity{
+        display:flex;
+        flex-direction:column;
+        -webkit-display:flex;
+        -webkit-flex-direction:column;
+    }.rightgravity{
+        display:flex;
+        justify-content:flex-end;
+        -webkit-display:flex;
+        -webkit-justify-content:flex-end;
+    }.none{
+        user-select:none;
+       -moz-user-select:none;
+       -ms-user-select:none;
+       -webkit-user-select:none;
+    }.shrink{
+        flex-shrink:0;    
+    }.expand{
+        flex-grow:1;    
+    }.right{
+        margin-left:auto;
+    }.left{
+        margin-right:auto;
+    }.up{
+        margin-bottom:auto;
+    }.down{
+        margin-top:auto;
+    }.plane{
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100%;
+        height:100%;
+    }.full{
+        width:100%;
+        height:100%;
+    }.left_full{
+        width:100%;
+    }.top_full{
+        height:100%;
+    }.autosize{
+        width:auto;
+        height:auto;
+    }.off{
+        display:none;
+    }.wrap{
+        flex-wrap:wrap;
+        display:flex;
+    }
+

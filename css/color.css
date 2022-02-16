@@ -1,0 +1,200 @@
+    /*This is an optimzed css files for Intellectual
+    
+    author : 2G Fields
+    Date Created: 27th of febuary, 2020. 11:00pm
+    All rights reserved
+    */
+    
+    /* intellectual specific casscade stylesheet */
+   
+    /*colors
+    */
+    .black{
+        border-color:black;
+        background:none;
+        color:black;
+    }.black:active{
+        border-color:black;
+        background:black;
+        color:white;
+    }.black_full{
+        background:black;
+        color:white;
+    }.black_full:active{
+        background:white;
+        color:black;
+    }.black_full_rev_trans{
+        color:black;
+        background:none;
+    }.black_full_rev_trans:active{
+        color:white;
+        background:black;
+    }.black_full_border{
+        background:black;
+        color:white;
+    }.black_full_border:active{
+        background:white;
+        color:black;
+        border-color:black;
+    }.black_input{
+        border-color:rgba(0,0,0,.2);
+    }.black_input_bottom{
+        background:black;
+    }.black_input_text{
+        color:black;
+    }.black_input_text:focus{
+        color:black;
+    }.black_background{
+        background:black;
+        color:white;
+    }.black_border{
+        border-color:black;
+    }.black_white{
+        background:white;
+        color:black;
+    }.black_white:active{
+        background:black;
+        color:white;
+    }.black_faded_white{
+        background:white;
+        color:black
+    }.black_faded_white:active{
+        background:rgba(0,0,0,.05);
+        color:black
+    }
+    
+    /* blue colors */
+    .blue_full{
+        background:#1cceaf;
+        color:white;
+    }.blue_full:active{
+        background:white;
+        color:#1cceaf;
+    }.blue_full_border{
+        background:#1cceaf;
+        color:white;
+        border-color:none;
+    }.blue_full_border:active{
+        background:white;
+        color:#1cceaf;
+        border-color:#1cceaf;
+    }.blue_input{
+        border-color:rgba(28,206,175,.2);
+    }.blue_input_bottom{
+        background:#1cceaf;
+    }.blue_input_text{
+        color:#1cceaf;
+    }.blue_background{
+        background:#1cceaf;
+        color:white;
+    }.blue{
+        background:none;
+        color:#1cceaf;
+    }.blue:active{
+        background:#1cceaf;
+        color:white;
+    }.blue_white{
+        background:white;
+        color:#1cceaf;
+    }.blue_white:active{
+        background:#1cceaf;
+        color:white;
+    }.blue_full_rev_trans_white{
+        color:white;
+        background:none;
+    }.blue_full_rev_trans_white:active{
+        color:white;
+        background:#1cceaf;
+    }
+    
+    
+    /* PINK colors */
+    .gum_full{
+        background:#ca195a;
+        color:white;
+    }.gum_full:active{
+        background:white;
+        color:#ca195a;
+    }.gum_full_border{
+        background:#ca195a;
+        color:white;
+        border-color:none;
+    }.gum_full_border:active{
+        background:white;
+        color:#ca195a;
+        border-color:#ca195a;
+    }.gum_input{
+        border-color:rgba(28,206,175,.2);
+    }.gum_input_bottom{
+        background:#ca195a;
+    }.gum_input_text{
+        color:#ca195a;
+    }.gum_background{
+        background:#ca195a;
+        color:white;
+    }.gum{
+        background:none;
+        color:#ca195a;
+    }.gum:active{
+        background:#ca195a;
+        color:white;
+    }.gum_white{
+        background:white;
+        color:#ca195a;
+    }.gum_white:active{
+        background:#ca195a;
+        color:white;
+    }.gum_full_rev_trans_white{
+        color:white;
+        background:none;
+    }.gum_full_rev_trans_white:active{
+        color:white;
+        background:#ca195a;
+    }.gum_full_trans_white{
+        color:#ca195a;
+        background:none;
+    }.gum_full_trans_white:active{
+        color:white;
+        background:#ca195a;
+    }
+    
+    /* green colors */
+    .green_1{
+        background:none;
+        color:limegreen;
+    }.green_1:active{
+        background:limegreen;
+        color:white;
+    }.green_1_full{
+        background:limegreen;
+        color:white;
+    }.green_1_full:active{
+        background:white;
+        color:limegreen;
+    }.green_1_white{
+        background:white;
+        color:limegreen;
+    }.green_1_white:active{
+        background:limegreen;
+        color:white;
+    }
+
+
+    .pic{
+        background:rgba(0,0,0,.15);
+        color:white;
+    }.pic:active{
+        background:white;
+        color:black;
+    }.pic_1{
+        background:rgba(0,0,0,.04);
+        color:white;
+    }.pic_1:active{
+        background:white;
+        color:black;
+    }
+    
+
+
+
+

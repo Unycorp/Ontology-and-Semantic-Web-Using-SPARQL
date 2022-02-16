@@ -1,0 +1,185 @@
+    /*This is an optimzed css files for Intellectual
+    
+    author : 2G Fields
+    Date Created: 27th of febuary, 2020. 11:00pm
+    All rights reserved
+    */
+    
+    /* Elements */
+    .google-box{
+        box-shadow:1px 2px 2px 0px rgba(0,0,0,.13);
+    }.google-box1{
+        box-shadow:1px 1px 2px 0px rgba(0,0,0,.13);
+    }.elevation{
+        box-shadow:0px 0px 5px 2px rgba(0,0,0,.07);
+    }.elevation_1{
+        box-shadow:0px 0px 5px 2px rgba(0,0,0,.05);
+    }.elevation_2{
+        box-shadow:0px 0px 5px 2px rgba(0,0,0,.03);
+    }.board_1{
+        box-shadow:0px 0px 2px 1px rgba(0,0,0,.03);
+    }.board_2{
+        box-shadow:0px 0px 2px 1px rgba(0,0,0,.05);
+    }.floating{
+        box-shadow:0px 3px 7px 2px rgba(0,0,0,.05);
+    }.floating_1{
+        box-shadow:0px 0px 3px 1px rgba(0,0,0,.03);
+    }.round{
+        border-radius:5px;
+    }.round_1{
+        border-radius:3px;
+    }.round_2{
+        border-radius:1px;
+    }.scroll{
+        overflow:auto
+    }.scroll_left{
+        overflow-x: auto;
+    }.scroll_top{
+        overflow-y: auto;
+    }.hidden{
+        overflow:hidden
+    }.fullImage{
+        background-size:cover;
+        background-position:center top;
+    }.bold{
+        font-weight:bold;
+    }.dim{
+        background:rgba(0,0,0,.4);
+    }.bright{
+        background:rgba(255,255,255,.3);
+    }.card{
+        border:1px solid rgba(0,0,0,.1);
+    }.card_1{
+        border:1px solid rgba(0,0,0,.05);
+    }.dim_1{
+        background:rgba(0,0,0,.3)
+    }.display_name{
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space:nowrap;
+    }.border_no_color{
+        border-width:1px;border-style:solid;
+    }.inLineText{
+        display:block;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space:nowrap;
+    }.choped_top{
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+    }.choped_bottom{
+        border-bottom-left-radius:15px;
+        border-bottom-right-radius:15px;
+    }.touchElement{
+        transition:transform 400ms;
+        will-change: transform;
+    }.border_yes{
+        border-style:solid;
+        border-width:1px;
+    }.round_border{
+        border-top-right-radius:20px;
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius:20px;
+        border-top-left-radius:20px;
+    }
+
+    .rott{
+        animation:rott 1s infinite;
+    }
+    @keyframes rott{
+        0%{
+            transform:rotate(0deg);
+        }
+        100%{
+            transform:rotate(720deg);
+        }
+    }
+    @keyframes shakey{
+            50%{
+                transform:translate(10px);
+                border-color:red;
+            }
+
+            0%{
+                 transform:translate(0px);
+            }
+            100%{
+                transform:translate(-10px);
+                border-color:red;
+            }
+    }
+    .shakey{
+            animation:shakey 150ms;
+            animation-iteration-count:5;
+     }
+
+
+    /* Click effects */
+    .raised_click:active{
+        box-shadow:0 0 5px 1px rgba(0,0,0,.14);
+    } .sepia_click:active{
+        filter:brightness(95%);
+    }
+    
+    
+
+    /* Input designs */
+    .input_1{
+        border:0px;
+        outline:none;
+        display:flex;
+        flex-shrink:0;
+        border-bottom:2px solid;
+     }.input_1 input{
+        outline:none;
+     }.input_1 input, select{
+        border:0px;
+        outline:none;
+        background:none;
+    }.input_1 .top{
+        width:100%;
+        height:calc(100% - 3px);
+        z-index:1;
+    }.input_1 .bottom{
+        height:100%;
+        width:100%;
+        display:flex;
+        margin-left:-100%;
+        justify-content:center;
+    }.input_1 .bottom div{
+        height:3px;
+        width:0px;
+        border-radius:1.5px;
+        margin-top:auto;
+        margin-bottom:-2px;
+        transition: width 400ms;
+    } 
+    
+    /* notification design */
+    .web-toast{
+        z-index:100;
+        min-width:50px;
+        background:#334455;
+        color:white;
+        margin:auto;
+        margin-bottom:20px;
+        border-radius:5px;
+        min-height:30px;
+        padding-bottom:5px;
+        padding-top:5px;
+        animation:fading 1s;
+        -webkit-animation:fading 1s;
+        -ms-animation:fading 1s;
+        -moz-animation:fading 1s;
+        animation-delay:1.5s;
+        -webkit-animation-delay:1.5s;
+        -ms-animation-delay:1.5s;
+        -moz-animation-delay:1.5s;
+        font-size:15px;
+        text-align:center;
+    }@keyframes fading{
+        100%{
+            opacity:0;
+        }
+    }
+
